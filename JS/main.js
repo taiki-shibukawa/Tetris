@@ -10,6 +10,14 @@ var app =  new Vue({
 var app2 = new Vue({
     el: "#app2",
     data: {
-        error: false
+        error: true
+    }
+})
+
+var app3 = new Vue({
+    el: "#app3",
+    data: {
+        error_class: "error",
+        img_src: "img01.png"
     }
 })

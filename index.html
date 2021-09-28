@@ -13,7 +13,11 @@
             {{ message }}
         </div>
         <div id="app2">
-            <p v-if="error">エラーです</p>
+            <p v-if="error">エラーです!</p>
+        </div>
+        <div id="app3">
+            <p v-bind:class="error_class">エラーです</p>
+            <img v-bind:src="img_src">
         </div>
     </body>
 </html>
