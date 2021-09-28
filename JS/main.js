@@ -12,7 +12,7 @@ var app2 = new Vue({
     data: {
         error: true
     }
-})
+});
 
 var app3 = new Vue({
     el: "#app3",
@@ -20,4 +20,17 @@ var app3 = new Vue({
         error_class: "error",
         img_src: "img01.png"
     }
-})
+});
+
+var app4 = new Vue({
+    el: "#app4",
+    data: {
+        now: "00:00:00"
+    },
+    methods: {
+        time: function(e) {
+            var date = new Date();
+            this.now = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+        }
+    }
+});
