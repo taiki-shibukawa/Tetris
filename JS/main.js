@@ -34,3 +34,18 @@ var app4 = new Vue({
         }
     }
 });
+
+var app5 = new Vue({
+    el: "#app5",
+    data: {
+        prefs: [
+            {name: '北海道'},
+            {name: '青森県'},
+            {name: '岩手県'},
+            {name: '宮城県'},
+            {name: '秋田県'},
+            {name: '山形県'},
+            {name: '福島県'}
+        ]
+    }
+});

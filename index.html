@@ -23,6 +23,13 @@
             <p>{{ now }}</p>
             <button v-on:click="time">現在時刻を表示する</button>
         </div>
+        <div id="app5">
+            <ul>
+                <li v-for="pref in prefs">
+                    {{pref.name}}
+                </li>
+            </ul>
+        </div>
         
     </body>
 </html>
