@@ -7,3 +7,6 @@ h1 {
 .error {
     color: red;
 }
+.flip-list-move {
+    transition: transform .5s;
+}

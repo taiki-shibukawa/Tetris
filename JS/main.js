@@ -47,5 +47,10 @@ var app5 = new Vue({
             {name: '山形県'},
             {name: '福島県'}
         ]
+    },
+    methods: {
+        shuffle: function() {
+            this.prefs = _.shuffle(this.prefs);
+        }
     }
 });
