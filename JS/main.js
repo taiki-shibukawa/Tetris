@@ -1,5 +1,6 @@
 document.getElementById("hello_text").textContent = "はじめてのJavaScript"
 
+/*vueの勉強用
 var app =  new Vue({
     el: "#app",
     data: {
@@ -72,3 +73,4 @@ Vue.component('alert-box', {
 var app = new Vue({
     el: "#app6"
 });
+*/
